@@ -1,0 +1,23 @@
+
+/*
+* 定义完成后 双击maven itcast_shop_common =》 Plugins =》protobuf =》protobuf:compile
+* 生成protobuf的java类
+* 在 itcast_shop_common\target\generated-sources\protobuf\java\cn\itcast_canal\protobuf\CanalModel.java 中可以看到这个类
+*/
+// 语义
+syntax = "proto3";
+// 对象所在的包名和类名 会在target下生成该包名和类名
+option java_package = "cn.itcast.canal.protobuf";
+option java_outer_classname = "CanalModel";
+//行数据
+message RowData {
+    string logfileName =15;
+    uint64 logfileOffset = 14;
+    uint64 executeTime = 1;
+    string schemaName = 2;
+    string tableName =3;
+    string eventType =4;
+
+//    列数据
+    map<string ,string > columns = 5;
+}
