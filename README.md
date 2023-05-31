@@ -1,9 +1,9 @@
 
-`#RRGGBB`itcast_shop_canal_client
+`#0969DA`itcast_shop_canal_client
 该包描述的主要是CanalClient客户端的开发
 
 
-`#RRGGBB`itcast_shop_common
+`#0969DA`itcast_shop_common
 cn.itcast.canal
   protobuf
     ProtoBufable 
@@ -24,8 +24,7 @@ cn.itcast.canal
 
 
 
-`#RRGGBB`cn.itcast.shop.realtime.etl
-  
+`#0969DA`cn.itcast.shop.realtime.etl
     AsyncOrderDetailRedisRequest 描述异步IO的处理逻辑
   process
     OrderDetailDataETL 描述订单明细调用异步IO
