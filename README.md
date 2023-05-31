@@ -1,5 +1,4 @@
-
-`rgb(9, 105, 218)`itcast_shop_canal_client
+`rgb(9, 105, 218)` itcast_shop_canal_client
 该包描述的主要是CanalClient客户端的开发
 
 
